@@ -22,6 +22,7 @@ def input_data():
     elif var == 2:
         with open('data_second_variant.csv', 'a', encoding='utf-8') as f:
             f.write(f'{name};{surname};{phone};{address} \n')
+            f.write('\n')
 
 
 def print_data():
